@@ -39,7 +39,7 @@ public class QuizApp {
 		//displaying time taken for answer 
 		System.out.println("TimeTaken  : "+(totalTimeTaken/1000.0) +" Seconds");
 		
-		//Displaying Score
+		//Displaying 
 		System.out.print("Score :" +score);
 		s.close();
 		
