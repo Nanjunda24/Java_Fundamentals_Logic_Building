@@ -3,15 +3,15 @@ package com.gmail.inbox;
 public class TernaryOperator1 {
 	public static void main(String[] args) {
 		
-		System.out.println("Ternary Operator ");
+		System.out.println("----Ternary operator Demo-----");
 		
-		int age=18;
-		boolean isAcccountThere=true;
+      int age = 21 ;
+      
+      boolean isDebitCard = true ;
+      
+      String result = (age >= 21 && isDebitCard) ? "You are eligible to apply debit card ": "You are not eligible to apply debit card" ;
 		
-		String result=(age==18 && isAcccountThere==true) ? "You are eligible to apply debit card ":"You are not eligible to to apply debit card  ";
-		
-		System.out.println(result);
-		
+      System.out.println("Result: "+result);
 	}
 
 }
